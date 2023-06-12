@@ -31,6 +31,8 @@ services:
 - Volume: Aqui e onde ocorre a mágica. O Docker ira realizar um mapeamento da pasta remota ```/ftp/ftpuser/``` para a pasta local onde os arquivos de imagens do Eve-ng está alocado, neste caso ~/Downloads.
 
 Agora, execute o comando
-```docker compose up```
+```shell
+$ docker compose up
+```
 
 No shell do Eve-ng, iremos executar um curl para o FTP Server
