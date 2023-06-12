@@ -26,7 +26,7 @@ services:
 
 #### Atenção
 É preciso alterar os valores das seguintes chaves:
-- Variável **USERS**: Você pode alterar o usuário e senha que será utilizado para se conectar com o seu servidor FTP
+- Variável **USERS**: Você pode alterar o usuário e senha que será utilizado para se conectar com o seu servidor FTP ```usuario|senha```
 - Variável **ADDRESS**: Aqui você ira colocar o IP da interface de rede do docker. Você pode obter utilizando o comando ```ifconfig docker0```.
 - Volume: Aqui e onde ocorre a mágica. O Docker ira realizar um mapeamento da pasta remota ```/ftp/ftpuser/``` para a pasta local onde os arquivos de imagens do Eve-ng está alocado, neste caso ~/Downloads.
 
